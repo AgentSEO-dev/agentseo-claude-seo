@@ -1,0 +1,33 @@
+{
+  "kind": "synthetic_fixture_answer_key",
+  "dataset": "search-console.csv",
+  "notes": "case-notes.md",
+  "cases": [
+    {
+      "case": "refresh",
+      "query": "seo audit checklist",
+      "decision": "refresh",
+      "page": "https://example.com/guides/seo-audit-checklist",
+      "evidence": "The guide received 48 then 24 clicks on 1,200 impressions in each window. CTR moved from 4.00% to 2.00%. The current guide lacks a filled example.",
+      "nextAction": "Add a worked prioritization example and check whether the snippet describes the guide. Keep the separate blank template available.",
+      "reopenIf": "A matched result sample consistently shows template-first intent or the guide has a crawl, canonical, or index issue."
+    },
+    {
+      "case": "create",
+      "query": "internal link audit template",
+      "decision": "create",
+      "page": "https://example.com/templates/internal-link-audit",
+      "evidence": "Four of six example results are worksheets. The inventory has no audit worksheet, and the general guide covers a different job.",
+      "nextAction": "Create a worksheet with five worked rows and link to it from the general guide.",
+      "reopenIf": "An existing page already serves the worksheet task or the team cannot supply a usable worksheet."
+    },
+    {
+      "case": "investigate",
+      "query": "keyword cannibalization audit",
+      "decision": "investigate",
+      "evidence": "The guide appears in the prior window and the tool in the current window. A missing row gives no CTR for the missing period.",
+      "nextAction": "Pull daily query-by-page rows, inspect each URL, and compare their intended jobs with a current matched SERP.",
+      "reopenIf": "Comparable observations show repeated switching between pages serving the same job."
+    }
+  ]
+}

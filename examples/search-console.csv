@@ -1,0 +1,9 @@
+window,start_date,end_date,country,device,search_type,query,page,clicks,impressions,position
+prior,2026-09-15,2026-10-12,USA,DESKTOP,web,seo audit checklist,https://example.com/guides/seo-audit-checklist,48,1200,5.8
+current,2026-10-13,2026-11-09,USA,DESKTOP,web,seo audit checklist,https://example.com/guides/seo-audit-checklist,24,1200,6.0
+prior,2026-09-15,2026-10-12,USA,DESKTOP,web,seo audit checklist,https://example.com/templates/seo-audit-checklist,1,45,14.7
+current,2026-10-13,2026-11-09,USA,DESKTOP,web,seo audit checklist,https://example.com/templates/seo-audit-checklist,5,85,13.8
+prior,2026-09-15,2026-10-12,USA,DESKTOP,web,internal link audit template,https://example.com/guides/internal-linking,3,115,21.4
+current,2026-10-13,2026-11-09,USA,DESKTOP,web,internal link audit template,https://example.com/guides/internal-linking,4,130,20.9
+prior,2026-09-15,2026-10-12,USA,DESKTOP,web,keyword cannibalization audit,https://example.com/guides/keyword-cannibalization,4,96,9.4
+current,2026-10-13,2026-11-09,USA,DESKTOP,web,keyword cannibalization audit,https://example.com/tools/query-overlap,4,97,9.7

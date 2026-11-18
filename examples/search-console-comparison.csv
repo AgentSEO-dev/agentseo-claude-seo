@@ -1,0 +1,6 @@
+country,device,search_type,query,page,status,prior_clicks,prior_impressions,prior_position,prior_ctr,current_clicks,current_impressions,current_position,current_ctr,ctr_change_percentage_points
+USA,DESKTOP,web,internal link audit template,https://example.com/guides/internal-linking,paired,3,115,21.4,2.61%,4,130,20.9,3.08%,+0.47
+USA,DESKTOP,web,keyword cannibalization audit,https://example.com/guides/keyword-cannibalization,missing_current,4,96,9.4,4.17%,,,,,
+USA,DESKTOP,web,keyword cannibalization audit,https://example.com/tools/query-overlap,missing_prior,,,,,4,97,9.7,4.12%,
+USA,DESKTOP,web,seo audit checklist,https://example.com/guides/seo-audit-checklist,paired,48,1200,5.8,4.00%,24,1200,6.0,2.00%,-2.00
+USA,DESKTOP,web,seo audit checklist,https://example.com/templates/seo-audit-checklist,paired,1,45,14.7,2.22%,5,85,13.8,5.88%,+3.66

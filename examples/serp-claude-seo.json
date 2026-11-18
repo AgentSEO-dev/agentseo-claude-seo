@@ -1,0 +1,38 @@
+{
+  "kind": "observed_search_snapshot_excerpt",
+  "engine": "Google",
+  "query": "claude seo",
+  "collectedDate": "2026-11-13",
+  "collectionMethod": "AgentSEO editorial research via Cloro Google SERP",
+  "market": "United States",
+  "language": "en",
+  "device": "desktop",
+  "organicResultsInSnapshot": 8,
+  "scope": "First four organic results in this capture. Format labels are editorial classifications.",
+  "results": [
+    {
+      "organicRank": 1,
+      "url": "https://github.com/AgriciDaniel/claude-seo",
+      "format": "Installable skill repository",
+      "observation": "The README gives installation commands and a list of available SEO workflows."
+    },
+    {
+      "organicRank": 2,
+      "url": "https://claudeseoskill.com/",
+      "format": "Skill landing page",
+      "observation": "The landing page presents an SEO skill for Claude Code."
+    },
+    {
+      "organicRank": 3,
+      "url": "https://claude-seo.md/",
+      "format": "Skill landing page",
+      "observation": "The page presents a Claude Code SEO skill and an installation route."
+    },
+    {
+      "organicRank": 4,
+      "url": "https://www.reddit.com/r/ClaudeAI/comments/1tvjjdj/claude_is_my_entire_seo_team_15m_impressions_in_3/",
+      "format": "Practitioner discussion",
+      "observation": "The author describes how they use Claude for SEO. The outcomes are self-reported."
+    }
+  ]
+}
