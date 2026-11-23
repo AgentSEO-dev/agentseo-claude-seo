@@ -2,6 +2,14 @@
 
 Use Claude Code to make a decision from a Search Console export or draft a content brief from dated search results. The skill and bundled data are free. The sample workflows require Claude Code access and use its configured model. They require no AgentSEO key or paid SEO data.
 
+Install into your current project with the Skills CLI:
+
+```sh
+npx skills add AgentSEO-dev/agentseo-claude-seo --skill agentseo-claude-seo --agent claude-code
+```
+
+Verified on November 24, 2026 with a fresh temporary project. The CLI installed the skill into .claude/skills/agentseo-claude-seo. Review the files before running a sample command. The CLI collects installation telemetry by default. Set DISABLE_TELEMETRY=1 to opt out.
+
 Install this public source into a project with Git:
 
 ```sh
